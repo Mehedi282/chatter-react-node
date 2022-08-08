@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.App {
+  width: 100%;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+}
+
+.primary {
+  color: #4E9F3D;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+p {
+  line-height: 30px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.container {
+  padding: 35px;
+  height: 100%;
+  background: #fff;
+  position: relative;
+  border-radius: 25px;
+}
+
+.center-text {
+  text-align: center;
+}
